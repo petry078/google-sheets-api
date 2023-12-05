@@ -10,7 +10,7 @@ async function getAuthentication(){
         scopes: "https://www.googleapis.com/auth/spreadsheets"
       })
 
-    const spreadsheetId = "1TyPimBnVru-FL0NYpdhTteblhE50PRvUBn8jRdOX6M4"
+    const spreadsheetId = "<spreadsheetId>"
     const client = await auth.getClient()
     const googleSheets = google.sheets({
         version: "v4",
