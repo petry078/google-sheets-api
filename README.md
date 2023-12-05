@@ -15,3 +15,7 @@ From the `/`, run:
 
 * `npm i`
 * `npm run start`
+
+## Make HTTP requests
+
+Import the file `insomnia-import.json` into Insomnia and make API requests.
